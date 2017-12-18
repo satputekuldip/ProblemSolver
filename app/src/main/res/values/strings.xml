@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProblemSolver</string>
+    <string name="enter_the_numbers_with_separating_white_space">Enter the numbers with separating white space</string>
+    <string name="_3_balls_problem_solver">3 Balls Problem Solver</string>
+</resources>
