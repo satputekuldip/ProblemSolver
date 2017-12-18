@@ -89,8 +89,6 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                         }
-                    } catch (NumberFormatException e) {
-                        Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     } catch (InterruptedException e) {
                         Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
