@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity {
                     try {
                         boolean flag = true;
                         for (int j = 0; j < inputArray.length && flag; j++) {
-                            for (int k = j + 1; k < inputArray.length && flag; k++) {
-                                for (int l = k + 1; l < inputArray.length; l++) {
+                            for (int k = 0; k < inputArray.length && flag; k++) {
+                                for (int l = 0; l < inputArray.length; l++) {
                                     Thread.sleep(100);
                                     changeText(j, k, l, inputArray);
                                     try {
